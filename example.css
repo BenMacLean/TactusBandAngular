@@ -1,3 +1,18 @@
+/*@font-face {
+    font-family: headlineFont;
+    src: url(HACKED.ttf);
+}*/
+
+@font-face {
+    font-family: headlineFont;
+    src: url(extrosBackstage.ttf);
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(extrosBackstage.ttf);
+}
+
 body {
     background-color: #1e1e1e;
 }
@@ -5,13 +20,13 @@ body {
     background-color: #000;
 }
 .header-full-width {
-    background-color: #0a0202
+    background: rgba(0, 0, 0, 0.3);
 }
 .header-wrapper {
     padding: 8px;
-    margin: auto;
-    display: block;
-    width: 60%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
 }
 .top-brand {
     height: 50px;
@@ -33,7 +48,7 @@ a {
 }
 .image-links-container {
     float: right;
-    padding: 14px;
+    padding: 14px 100px 14px 0;
 }
 .image-links-container img {
     padding: 0px 6px;
@@ -42,17 +57,18 @@ a {
 /*CONTENT*/
 
 .cover-image {
-    background-image: url("cover_instrumentaldarkened-e1459449914299.jpg");
-    width: 100%;
-    height: 700px;
+    /*background-image: url("cover_instrumentaldarkened-e1459449914299.jpg");*/
+    background: url("cover_instrumentaldarkened-e1459449914299.jpg") no-repeat center center fixed;
+    height: 800px;
     background-size: cover;
 }
-.cover-label {
+.headline {
+    font-family: headlineFont;
     color: white;
     margin: auto;
-    width: 500px;
-    font-size: 135px;
+    font-size: 11vw;
     padding-top: 250px;
+    text-align: center;
 }
 
 /*ABOUT*/
@@ -62,6 +78,8 @@ a {
     font-size: 40px;
     padding: 30px 0px;
     text-align: center;
+    font-family: titleFont;
+
 }
 .avatars {
     margin: auto;
@@ -75,13 +93,19 @@ a {
 .avatar-name {
     color: white;
     font-size: 24px;
-    padding: 26px 0px;
+    padding: 10px 0px;
     text-align: center;
+}
+.avatar-instrument {
+    font-family: verdana;
+    color: #666b71;
+    font-size: 12px;
 }
 
 /*MEDIA*/
 
 .media-container {
     margin: auto;
-    width: 695px;
+    width: 800px;
+    text-align: center;
 }
