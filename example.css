@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: titleFont;
-    src: url(extrosBackstage.ttf);
+    src: url(Roboto-Thin.ttf);
 }
 
 body {
@@ -75,7 +75,7 @@ a {
 
 .about-title {
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     padding: 30px 0px;
     text-align: center;
     font-family: titleFont;
