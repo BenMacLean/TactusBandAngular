@@ -117,7 +117,7 @@ a {
     text-align: center;
     font-weight: 100;
     font-family: titleFont;
-    
+
 }
 .avatar-instrument {
     font-family: verdana;
@@ -168,6 +168,22 @@ a {
     padding: 10px 20px;
 }
 .button:hover {
-    background: #f00;
+    background: transparent;
+    color: #fff;
+}
+
+.button-two {
+    border: 2px solid #fff;
+    background: #b72e2e;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: titleFont;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 10px 20px;
+}
+.button-two:hover {
+    background: transparent;
     color: #fff;
 }
