@@ -122,7 +122,7 @@ a {
 .avatar-instrument {
     font-family: verdana;
     color: #666b71;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /*MEDIA*/
@@ -131,6 +131,14 @@ a {
     margin: auto;
     width: 800px;
     text-align: center;
+}
+
+
+
+.instagram{
+  padding-top: 20px;
+  margin: auto;
+  width: 75%
 }
 
 /*CONTACT and Footer*/
