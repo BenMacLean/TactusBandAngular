@@ -18,7 +18,9 @@ hr {
   margin-bottom: 30px;
 }
 body {
-    background-color: #1e1e1e;
+    /*background-color: #1e1e1e;*/
+    background-color: #808fa3;
+
 }
 .site-banner {
     background-color: #000;
@@ -63,9 +65,10 @@ a {
 .cover-image {
     /*background-image: url("cover_instrumentaldarkened-e1459449914299.jpg");*/
     /*background: url("cover_instrumentaldarkened-e1459449914299.jpg") no-repeat center center fixed;*/
-    background: url("Cover_NoText.png") no-repeat center center fixed;
+    background: url("Cover_NoTextRe.png") no-repeat center center fixed;
     height: 800px;
-    background-size: cover;
+    background-size: contain;
+    background-color: #808fa3;
 }
 .headline {
     font-family: headlineFont;
