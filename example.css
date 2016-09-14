@@ -1,7 +1,4 @@
-/*@font-face {
-    font-family: headlineFont;
-    src: url(HACKED.ttf);
-}*/
+
 
 @font-face {
     font-family: headlineFont;
@@ -18,7 +15,6 @@ hr {
   margin-bottom: 30px;
 }
 body {
-    /*background-color: #1e1e1e;*/
     background-color: #353b44;
 
 }
@@ -86,9 +82,7 @@ a {
     color: #c5cee8;
 }
 
-/*.header-background {
-   background: url ("Cover_NoTextBlurWideColor.png");
-}*/
+
 
 /*ABOUT*/
 
