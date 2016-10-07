@@ -44,6 +44,12 @@ a {
 .header-container {
     display: inline-block;
 }
+
+.header-background {
+  background-image: url("Cover_NoText.png") no-repeat center center fixed;
+  /*background-color: white;*/
+}
+
 .text-links-container {
     vertical-align: top;
     margin-top: 18px;
@@ -64,7 +70,7 @@ a {
     background: url("Cover_NoText.png") no-repeat center center fixed;
     height: 800px;
     background-size: contain;
-    background-color: #808fa3;
+    /*background-color: #808fa3;*/
 
 }
 .headline {
