@@ -47,6 +47,7 @@ a {
 
 .header-background {
   background-image: url("Cover_NoTextBlurWide.jpg");
+  background-size: cover;
   /*background-color: white;*/
 }
 
