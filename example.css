@@ -15,8 +15,10 @@ hr {
   margin-bottom: 30px;
 }
 body {
-    background-color: #292d35;
-    /*background: url("Cover_NoTextBlurWideColorMetal.png") no-repeat center center fixed;*/
+    /*background-color: #292d35;*/
+    background: url("Cover_NoTextBlurWideColorMetal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .site-banner {
     background-color: #000;
